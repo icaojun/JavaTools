@@ -7,7 +7,10 @@ package com.xf.tpm.core.info;
 public class ThreadPoolMonitorInfo {
 
     private String poolName;
-    private long createTime;  //线程池启动时间戳
+    /**
+     * 线程池启动时间戳
+     */
+    private long createTime;
     private long activeCount;
     private long totalTask;
     private long completedTaskCount;

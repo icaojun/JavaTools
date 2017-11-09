@@ -1,4 +1,4 @@
-package com.xf.tmp.xml;
+package com.xf.tpm.xml;
 
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;

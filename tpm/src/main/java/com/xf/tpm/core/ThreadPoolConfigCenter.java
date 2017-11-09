@@ -1,7 +1,7 @@
 package com.xf.tpm.core;
 
-import com.xf.tmp.xml.DomUtil;
-import com.xf.tmp.xml.NodeParser;
+import com.xf.tpm.xml.DomUtil;
+import com.xf.tpm.xml.NodeParser;
 import com.xf.tpm.core.info.ThreadPoolInfo;
 import com.xf.tpm.core.lifecycle.ILifeCycle;
 import org.w3c.dom.Document;
