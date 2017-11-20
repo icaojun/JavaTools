@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<threadpool4j>
+<threadpools>
 	<!-- 至少要有一个线程池default -->
 	<pool name="default">
 		<corePoolSize>2</corePoolSize>
@@ -21,17 +21,17 @@
     switch: on-开; off-关
     interval: 单位(秒)
      -->
-    <threadpoolstate switch="on" interval="10"></threadpoolstate>
+    <!--<threadpoolstate switch="on" interval="10"></threadpoolstate>-->
 
     <!-- 线程状态收集汇总配置
     switch: on-开; off-关
     interval: 单位(秒)
      -->
-    <threadstate switch="on" interval="60"></threadstate>
+   <!-- <threadstate switch="on" interval="60"></threadstate>-->
     
     <!-- 线程堆栈收集配置
     switch: on-开; off-关
     interval: 单位(秒)
      -->
-    <threadstack switch="off" interval="60"></threadstack>
-</threadpool4j>
+   <!-- <threadstack switch="off" interval="60"></threadstack>-->
+</threadpools>

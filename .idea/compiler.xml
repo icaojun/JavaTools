@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="instrument" />
         <module name="tpm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="instrument" target="1.8" />
       <module name="JavaTools" target="1.8" />
       <module name="tpm" target="1.8" />
     </bytecodeTargetLevel>

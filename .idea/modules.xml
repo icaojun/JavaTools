@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaTools.iml" filepath="$PROJECT_DIR$/JavaTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instrument/instrument.iml" filepath="$PROJECT_DIR$/instrument/instrument.iml" />
       <module fileurl="file://$PROJECT_DIR$/tpm/tpm.iml" filepath="$PROJECT_DIR$/tpm/tpm.iml" />
     </modules>
   </component>

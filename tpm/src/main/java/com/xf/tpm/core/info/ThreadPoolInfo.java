@@ -1,6 +1,7 @@
 package com.xf.tpm.core.info;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 /**
  * 线程池信息。
@@ -121,14 +122,8 @@ public class ThreadPoolInfo implements Serializable, Cloneable {
             return false;
         }
         ThreadPoolInfo other = (ThreadPoolInfo) obj;
-        if (name == null) {
-            if (other.name != null) {
-                return false;
-            }
-        } else if (!name.equals(other.name)) {
-            return false;
-        }
-        return true;
+
+        return Objects.equals(other.name,name);
     }
 
     @Override
